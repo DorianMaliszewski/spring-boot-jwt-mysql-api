@@ -1,0 +1,4 @@
+## App Properties
+app :
+  jwtSecret : JWTSuperSecretKey
+  jwtExpirationInMs : 604800000
