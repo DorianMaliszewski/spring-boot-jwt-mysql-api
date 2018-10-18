@@ -17,6 +17,6 @@ public class BaseIdEntity extends BaseEntity {
     private static long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Long id;
 }
